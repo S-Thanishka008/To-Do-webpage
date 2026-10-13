@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOTIVA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <header class="header">
+            <button id="color" class="color">Change BG</button>
+            <div class="logo">NOTIVA</div>
+        </header>
+        <div class="input">
+            <input type="text" id="input" placeholder="Got something on your mind?">
+            <button id="add" class="add">New Note</button>
+        </div>
+        <div class="panel">
+            <div class="item">
+                <span class="label">Total</span>
+                <span id="total" class="val">0</span>
+            </div>
+            <div class="item">
+                <span class="label">Total</span>
+                <span id="completed" class="val">0</span>
+            </div>
+            <div class="item">
+                <span class="label">Total</span>
+                <span id="pending" class="val">0</span>
+            </div>
+        </div>
+        <ul id="notivalist" class="list"></ul>
+    </div>
+    <script  src="script.js"></script>
+</body>
+</html>
