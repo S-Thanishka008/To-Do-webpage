@@ -7,7 +7,7 @@ let comp=document.getElementById("completed");
 let pend=document.getElementById("pending");
 
 let tasks=[];
-let colors=["#25344f","#617891","#d5b893","#6f4d38","#632024"];
+let colors=["#72b0ab","#bcdddc","#ffedd1","#fdc1b4","#fe9179","#cfb97e","#b89d47","#355e58","#053229"];
 let index=0;
 function update(){
     let all = list.children.length;
